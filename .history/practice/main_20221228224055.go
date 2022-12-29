@@ -1,18 +1,14 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
+import "fmt"
 
 func main() {
 	fmt.Println("Hurray! My very first go program!")
 	s := "Inzamam"
 	fmt.Println(s);
-	var i int = 42
-	var b string = strconv.Itoa(i)
-	fmt.Printf("%q", b)
-
+	var a string
+	var b int 
+	count, err:= fmt.Scanf("%s %d", &a, &b);
 	// format specifier
 
 }

@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(s);
 	var i int = 42
 	var b string = strconv.Itoa(i)
-	fmt.Printf("%q", b)
+	fmt.Print("%q", b)
 
 	// format specifier
 
