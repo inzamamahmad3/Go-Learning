@@ -17,13 +17,4 @@ func main() {
 
 	// Constant in Golang Practice
 
-	// const <name> <type> = <value>
-	const n string = "Harry Potter"
-	const z = "Dumber"
-	if (n == z) {
-		return
-	}
-    // Learning Array
-	var grades [3]int = [3]int{1,2,3}
-	var num := [3]int{1,2,3}
 }
